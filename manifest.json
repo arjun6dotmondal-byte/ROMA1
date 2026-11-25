@@ -1,0 +1,9 @@
+{
+  "name": "ROMA AI",
+  "short_name": "ROMA AI",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#10182b",
+  "description": "Your personal AI assistant starter app"
+}

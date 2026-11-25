@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10182b"><link rel="manifest" href="manifest.json">
+<title>ROMA AI</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<header><div class="logo">R</div><div><h1>ROMA AI</h1><p>Your personal assistant</p></div><span class="status">PERSONAL</span></header>
+<main>
+<section class="welcome"><h2>Hello! I'm ROMA AI.</h2><p>Your personal assistant is getting ready. You can save notes and explore the interface now. AI chat will become active after we securely connect an AI service.</p></section>
+<div class="quick">
+<button data-prompt="Help me plan my day">Plan my day</button>
+<button data-prompt="Help me with Aditi Cyber Cafe">Cyber Cafe</button>
+<button data-prompt="Help me find a job">Job search</button>
+</div>
+<div class="section-title">Conversation</div>
+<div id="chat" class="chat"><div class="bubble bot">Welcome! I’m your ROMA AI starter app. The AI connection has not been configured yet. Your messages stay on this screen for now.</div></div>
+<form id="chatForm"><input id="message" autocomplete="off" placeholder="Write a message..." aria-label="Message"><button type="submit">Send</button></form>
+<div class="section-title">Personal notes</div>
+<div class="notes"><textarea id="note" placeholder="Write a note you want to keep on this phone..."></textarea><button id="saveNote">Save note</button><p id="saved" aria-live="polite"></p></div>
+</main>
+<footer>ROMA AI • Starter version</footer>
+</div><script src="app.js"></script>
+</body></html>
